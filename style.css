@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+display: flex;
+justify-content: center;    
+align-items: center;
+height: 100vh;
+}
+
+section{
+    padding: 20px 15px;
+    border:none ;
+    height: 80vh;
+    width: 30vw;
+    box-shadow: 2px 1px 7px 2px gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+    }
+
+
+form{
+    display: flex;
+flex-direction: column;    
+align-items: center;
+}
+#header1{
+    font-size: 30px;
+    color: blue;
+    font-weight:800;
+    font-family:'Times New Roman', Times, serif;
+
+}
+#colorfulBG{
+    background-color: rgb(89, 89, 218);
+    border-radius: 2px;
+    color: white;
+}
+#header2{
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px 0 10px 0;
+}
+small{
+    padding: 5px 0 10px 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.personalInfo{
+    display: block;
+    height: 5vh;
+    width: 90%;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+   
+}
+.personalInfo:hover{
+    background-color: gray;
+    transition: 1s;
+}
+
+
+   
+
+    .blueWord{
+     font-size: 16px;
+     color: #3737cf;
+     font-weight: bold;
+     font-family: 'Courier New', Courier, monospace;
+     
+    }
+a{
+    text-decoration: none;
+}
+    #signinBtn{
+        font-size: 16px;
+        font-weight: 800;
+      height: 6vh;
+      width: 50%;
+      border: none;
+      background-color: #3737cf;
+      color: white;
+      border-radius: 30px;
+      display: block;
+     
+     }
+
+     #signinBtn:hover{
+        background-color: #6e6eea;
+        transition: 1s;
+     }
+
+ 
